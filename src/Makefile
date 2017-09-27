@@ -1,9 +1,9 @@
-TARGET   = servo
+TARGET = servo
 
-MCU      = attiny4
-FREQ     = 1000000
+MCU    = attiny4
+FREQ   = 1000000
 
-C_SRCS   = main.c
+SRCS   = main.c
 
 include ../Makefile.common
 
